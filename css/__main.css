@@ -1929,7 +1929,7 @@ textarea.input-lg {
 }
 .btn:hover,
 .btn:focus {
-  color: #333333;
+  color: #777777;
   text-decoration: none;
 }
 .btn:active,
@@ -1950,18 +1950,18 @@ fieldset[disabled] .btn {
   box-shadow: none;
 }
 .btn-default {
-  color: #333333;
-  background-color: #ffffff;
-  border-color: #cccccc;
+  color: #777777;
+  background-color: #ededed;
+  border-color: #e0e0e0;
 }
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:active,
 .btn-default.active,
 .open .dropdown-toggle.btn-default {
-  color: #333333;
-  background-color: #ebebeb;
-  border-color: #adadad;
+  color: #777777;
+  background-color: #d9d9d9;
+  border-color: #c2c2c2;
 }
 .btn-default:active,
 .btn-default.active,
@@ -1983,8 +1983,8 @@ fieldset[disabled] .btn-default:active,
 .btn-default.disabled.active,
 .btn-default[disabled].active,
 fieldset[disabled] .btn-default.active {
-  background-color: #ffffff;
-  border-color: #cccccc;
+  background-color: #ededed;
+  border-color: #e0e0e0;
 }
 .btn-primary {
   color: #ffffff;
@@ -3757,7 +3757,7 @@ fieldset[disabled] .btn-feature.active {
   }
 }
 .btn-default .caret {
-  border-top-color: #333333;
+  border-top-color: #777777;
 }
 .btn-primary .caret,
 .btn-success .caret,
@@ -3767,7 +3767,7 @@ fieldset[disabled] .btn-feature.active {
   border-top-color: #fff;
 }
 .dropup .btn-default .caret {
-  border-bottom-color: #333333;
+  border-bottom-color: #777777;
 }
 .dropup .btn-primary .caret,
 .dropup .btn-success .caret,
