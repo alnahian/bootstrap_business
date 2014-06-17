@@ -6380,13 +6380,14 @@ footer[role="contentinfo"] ul.social > li > a {
   width: 30px;
   height: 30px;
   border-radius: 36px;
-  background-color: #aeaeae;
-  color: #fff;
+  background-color: #1c3855;
+  color: #bfbfbf;
   margin: 0 3px 3px 0;
 }
 footer[role="contentinfo"] ul.social > li > a:hover {
   text-decoration: none;
-  background-color: #76a3d2;
+  background-color: #162c42;
+  color: #ffffff;
 }
 @media (min-width: 992px) {
   header[role="banner"] .navbar-default {
