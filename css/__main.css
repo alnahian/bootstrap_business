@@ -6335,6 +6335,30 @@ main {
 footer[role="contentinfo"] {
   padding-top: 24px;
   padding-bottom: 24px;
+  font-size: 13px;
+  background-color: #274f78;
+  color: #bfbfbf;
+}
+footer[role="contentinfo"] a {
+  color: #ededed;
+}
+footer[role="contentinfo"] a:focus,
+footer[role="contentinfo"] a:hover,
+footer[role="contentinfo"] a:active {
+  color: #ffffff;
+}
+footer[role="contentinfo"] .btn-default {
+  color: #274f78 !important;
+}
+footer[role="contentinfo"] h3 {
+  font-size: 120%;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+}
+footer[role="contentinfo"] ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 footer[role="contentinfo"] .footer-brand {
   text-align: center;
