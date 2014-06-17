@@ -6264,6 +6264,22 @@ button.close {
     padding-bottom: 30px;
   }
 }
+main [class*="col-"] h1,
+main [class*="col-"] h2,
+main [class*="col-"] h3,
+main [class*="col-"] h4 {
+  clear: both;
+  padding-top: 20px;
+}
+@media (min-width: 768px) {
+  main [class*="col-"] h1:first-child,
+  main [class*="col-"] h2:first-child,
+  main [class*="col-"] h3:first-child,
+  main [class*="col-"] h4:first-child {
+    margin-top: 0;
+    padding-top: 0;
+  }
+}
 footer[role="contentinfo"] {
   padding-top: 24px;
   padding-bottom: 24px;
